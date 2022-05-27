@@ -71,9 +71,47 @@ h1 {
 }
 
 #modeling {
-  color: rgb(255, 255, 255);
+  color: rgb(22, 176, 94);
   font-size: 40px;
   position: absolute;
-    top: 3em;
+    top: 2.25em;
     left: 20px;
+}
+
+#abstract {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  position: absolute;
+    top: 31.75em;
+    left: 160px;
+}
+
+#room {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  position: absolute;
+    top: 8em;
+    left: 160px;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: right;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.abstractImage {
+  position: absolute;
+  top: 40em;
+  left: 16.4em;
+  width: 80%;
+  padding: 20px;
 }
